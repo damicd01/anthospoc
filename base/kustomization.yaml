@@ -5,7 +5,7 @@ helmCharts:
   version: v1.5.3
   releaseName: my-cert-manager
   namespace: cert-manager
-- name: nginx-stable/nginx-ingress
+- name: nginx-ingress
   repo: https://helm.nginx.com/stable
   version: 0.16.2
   releaseName: my-nginx
