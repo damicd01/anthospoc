@@ -6,7 +6,7 @@ helmCharts:
   releaseName: my-cert-manager
   namespace: cert-manager
 - name: nginx-stable
-  repo: https://helm.nginx.com
+  repo: https://helm.nginx.com/stable
   version: stable
   releaseName: my-nginx
   namespace: nginx-ingress
